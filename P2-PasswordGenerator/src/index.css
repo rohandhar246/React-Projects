@@ -1,0 +1,13 @@
+body{
+  margin: 0;
+  padding: 10px;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  background-color: rgb(24, 24, 24);
+  background-image: url(https://static.vecteezy.com/system/resources/thumbnails/002/844/147/small/closed-padlock-on-digital-background-cyber-security-free-vector.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@import "tailwindcss";
