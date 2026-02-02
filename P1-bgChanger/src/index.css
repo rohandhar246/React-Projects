@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+body{
+    margin: 0;
+    padding: auto;
+}
+
+.screenlg{
+    @apply flex  flex-col justify-end ;
+}
+
+.mylg{
+   @variant max-md{
+     @apply p-2 border-2 rounded-2xl mx-[5vh] mb-[5vh] flex flex-wrap justify-evenly ;
+   }
+
+    @variant md{
+        @apply p-2 border-2 rounded-full mx-[10vh] mb-[10vh] flex justify-evenly ;
+    }
+  
+}
+
+.btnst{
+ @apply border-2 rounded-full px-5 py-2 hover:brightness-75 active:brightness-150 text-white;
+}
