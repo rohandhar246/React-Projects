@@ -3,10 +3,12 @@ import UserContext from '../Context/UserContext'
 
 
 const Login = () => {
+    const {setUser} = useContext(UserContext)
+    
     const [username, setusername] = useState('')
     const [password, setpassword] = useState('')
 
-    const {setUser} = useContext(UserContext)
+    
     
     const handleSubmit = (e) => {
            e.preventDefault()
